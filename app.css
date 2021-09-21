@@ -1,0 +1,208 @@
+header{
+    position: relative;
+}
+.banner img{
+    margin-top: 56px;
+    width: 100%;   
+}
+.navbar{
+    position: absolute;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+}    
+.first-section .col{
+    padding: 10px 3px 10px;
+    margin: 5px;
+    border: 1.5px rgb(230, 230, 14) solid;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 0 8px 6px -6px rgb(167, 167, 6);
+}
+.first-section .col img{
+    width: 70px;
+    height: 60px;
+    padding-left: 1px;
+    padding-right: 4px;
+}
+.demo p{
+    text-align: center;
+    position: relative;
+    top: -20px;
+    padding-top: 0.6rem;
+    line-height: normal;
+    background: rgb(230, 230, 14);
+    width: 34%;
+    height: 45px;
+    margin-left: 33%;
+    margin-right: 33%;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 8px 6px -6px black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.first-section .container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#navbarSupportedContent .nav-link:hover{
+    color:rgb(230, 230, 14);
+    padding-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(230, 230, 14);
+    border-bottom-width: 2px;
+}
+
+.ecosuite .container-fluid{
+    background-color: rgb(240, 238, 238);
+    padding-bottom: 30px;
+}
+
+h4{
+    font-family:'Pacifico', cursive;
+    font-size: 20px;
+}
+.ecosuite h1{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.ecosuite .col p{
+    font-family: 'Oswald', sans-serif;
+}
+.ecosuite hr{
+    border-top: 1px solid black;
+}
+.eco-container .row{
+    display: flex;
+    align-items:initial;
+    padding: 50px;
+    margin: 10px;
+    justify-content:space-around;
+}
+.eco-container .col-3{
+    box-shadow: 0 5px 2px -2px rgb(8, 8, 119);
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    height: 500px;
+    border-radius: 5px;
+}
+.eco-container .col-3 img{
+    width: 230px;
+    height: 250px;
+}
+.eco-container .col-3 hr{
+    border-top: 1px solid black;
+}
+.eco-container .row button{
+    background-color: rgb(230, 230, 14);
+    font-family: 'Oswald', sans-serif;
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 5px;
+}
+.btn .google{
+    height: 30px;
+    width: 30px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+    padding: 5px;
+    margin-inline: 5px;
+}
+.btn .mac{
+    height: 30px;
+    width: 30px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+#phone{
+    pointer-events: none;
+    color: orangered;
+    font-weight: bold;
+}
+.suite-after-sec h5{
+    color: rgb(146, 146, 5);
+    font-size: 18px;
+    margin-top: 25px;
+    letter-spacing: 6px;
+}
+.suite-after-sec{
+    font-family: 'Oswald', sans-serif;
+}
+.suite-after-sec a{
+    color: rgb(230, 230, 14);
+    font-weight: bold;
+}
+.suite-after-sec .free{
+    color: green;
+}
+.suite-after .row{
+    display: flex;
+    height: 300px;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.suite-after .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 5px;
+}
+.suite-after .right{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+margin: 10px 0;
+}
+.suite-after .list{
+background-color: rgb(216, 236, 245);
+padding: 10px 10px 5px;
+margin-bottom: 10px;
+height: 70px;
+border-radius: 5px;
+font-size: 15px;
+}
+.site-footer .container-fluid{
+    padding: 30px 150px 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    background-color: #131a22; 
+}
+.site-footer hr{
+    border-top: 1px dashed white;
+}
+.footer-links a{
+    color: white;
+}
+.social-icons{
+    display: flex;
+}
+.social-icons .fa {
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(230, 230, 14);
+    background-color: #27374a;
+    margin: 5px;
+    align-items: center;
+    box-shadow: 0 8px 6px -6px black;
+  }
+  .fa-hand-point-right{
+      margin-right: 5px;
+  }
